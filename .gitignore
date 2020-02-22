@@ -59,8 +59,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 #MaxstAR Example
-Assets/MaxstAR/
-Assets/Editor/
-Assets/Resources
-Assets/Plugins
-Assets/StreamingAssets
+APP-PLE-AR/Assets/MaxstAR/
+APP-PLE-AR/Assets/Editor/
+APP-PLE-AR/Assets/Resources
+APP-PLE-AR/Assets/Plugins
+APP-PLE-AR/Assets/StreamingAssets
