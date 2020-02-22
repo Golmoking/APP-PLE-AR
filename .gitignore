@@ -58,3 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#MaxstAR Example
+Assets/MaxstAR/
+Assets/Editor/
+Assets/Resources
+Assets/Plugins
+Assets/StreamingAssets
