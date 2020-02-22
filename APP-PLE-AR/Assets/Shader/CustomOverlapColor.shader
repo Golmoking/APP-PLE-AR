@@ -4,7 +4,7 @@ Shader "Unlit/CustomOverlapColor"
 {
 	Properties
 	{
-		[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+		 _MainTex("Sprite Texture", 2D) = "white" {}
 		_Color("Albedo", Color) = (1, 1, 0, 1)
 		_OverlapColor("Overlap Color", Color) = (0, 0, 0, 1)
 	}
