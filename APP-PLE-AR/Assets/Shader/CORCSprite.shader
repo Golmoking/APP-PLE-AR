@@ -1,4 +1,4 @@
-﻿Shader "COC/COCSprite"
+﻿Shader "Custom Overlap Region Color/COCSprite"
 {
 	Properties
 	{

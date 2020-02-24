@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "COC/COCUnlit"
+Shader "Custom Overlap Region Color/CORCUnlit"
 {
 	Properties
 	{
