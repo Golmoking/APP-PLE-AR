@@ -1,4 +1,4 @@
-﻿Shader "UI/CustomOverlapUI"
+﻿Shader "COC/COCSprite"
 {
 	Properties
 	{
@@ -46,6 +46,13 @@
 
 			Pass
 			{
+				Stencil
+				{
+					Ref	0
+					Comp always
+					Pass IncrSat
+					Fail IncrSat
+				}
 				Name "Default"
 				CGPROGRAM
 				#pragma vertex vert
@@ -115,6 +122,11 @@
 
 			Pass
 			{
+				Stencil
+				{
+					Ref	2
+					Comp equal
+				}
 				CGPROGRAM
 				#pragma vertex vert
 				#pragma fragment frag
