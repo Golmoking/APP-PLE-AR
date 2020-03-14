@@ -2,6 +2,11 @@
 {
 	Properties
 	{
+		[KeywordEnum(Simple, Filled)] _ImageType ("Image Type", Float) = 0
+		[KeywordEnum(Vertical, Horizontal)] _FillMethod ("Fill Method", Float) = 0
+		[KeywordEnum(Top, Bottom, Left, Right)] _FillOrigin ("Fill Origin", Float) = 0
+		_FillAmount ("Fill Amount", Range(0, 1)) = 1
+		[Space]
 		[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
 		_Color("Tint", Color) = (1,1,1,1)
 		_OverlapColor("Overlap", Color) = (1,1,1,1)
@@ -23,7 +28,7 @@
 			{
 				"Queue" = "Transparent"
 				"IgnoreProjector" = "True"
-				"RenderType" = "Transparent"
+				"RenderType" = "Transparent+10"
 				"PreviewType" = "Plane"
 				"CanUseSpriteAtlas" = "True"
 			}
@@ -88,6 +93,7 @@
 				fixed4 _TextureSampleAdd;
 				float4 _ClipRect;
 				float4 _MainTex_ST;
+				float _FillAmount;
 
 				v2f vert(appdata_t v)
 				{
@@ -114,7 +120,7 @@
 					#ifdef UNITY_UI_ALPHACLIP
 					clip(color.a - 0.001);
 					#endif
-
+					color.a *= IN.texcoord.x < _FillAmount;
 					return color;
 				}
 				ENDCG

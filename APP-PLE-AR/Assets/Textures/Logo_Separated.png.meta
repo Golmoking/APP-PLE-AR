@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -1942580217006589001
     second: Logo_Tail_Bottom
+  - first:
+      213: -1942580217006589001
+    second: Logo_Eyes
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -228,6 +231,27 @@ TextureImporter:
       bones: []
       spriteID: a0fe37566ecd74b20800000000000000
       internalID: 3118704149080043274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Eyes
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 885
+        width: 815
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbfe99b5919a05e0800000000000000
+      internalID: -1942580217006589001
       vertices: []
       indices: 
       edges: []

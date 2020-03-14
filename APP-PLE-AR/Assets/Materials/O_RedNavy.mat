@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: O_BluePurple
-  m_Shader: {fileID: 4800000, guid: 7a8bdb75defdd234fa9a9b99692ea194, type: 3}
-  m_ShaderKeywords: 
+  m_Name: O_RedNavy
+  m_Shader: {fileID: 4800000, guid: 2575c5c6e78e3f24084895e60d6adcd4, type: 3}
+  m_ShaderKeywords: UNITY_UI_ALPHACLIP _FILLMETHOD_VERTICAL _FILLORIGIN_TOP _IMAGETYPE_SIMPLE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -57,12 +57,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _ColorMask: 15
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FillAmount: 1
+    - _FillMethod: 0
+    - _FillOrigin: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _ImageType: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -70,9 +75,15 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _UVSec: 0
+    - _UseUIAlphaClip: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0.033422947, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OverlapColor: {r: 0.91974497, g: 0, b: 1, a: 1}
+    - _OverlapColor: {r: 0.18308006, g: 0.12726949, b: 0.49056602, a: 1}
