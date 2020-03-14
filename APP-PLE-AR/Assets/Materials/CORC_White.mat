@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: O_RedWhite
+  m_Name: CORC_White
   m_Shader: {fileID: 4800000, guid: 2575c5c6e78e3f24084895e60d6adcd4, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA UNITY_UI_ALPHACLIP
   m_LightmapFlags: 4
