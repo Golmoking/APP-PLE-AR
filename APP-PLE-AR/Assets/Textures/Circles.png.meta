@@ -20,6 +20,36 @@ TextureImporter:
   - first:
       213: 6441800865609612545
     second: Circle_White
+  - first:
+      213: -2434568325419030468
+    second: Doughnut_Blue
+  - first:
+      213: -575536238058239577
+    second: Doughnut_Blue
+  - first:
+      213: -3911128351369292997
+    second: Doughnut_Red
+  - first:
+      213: 2190485357215893546
+    second: Doughnut_White
+  - first:
+      213: -3516616012245760874
+    second: Circle_Blue
+  - first:
+      213: -7698138948945539861
+    second: Circle_Red
+  - first:
+      213: -5383671415335508278
+    second: Circle_White
+  - first:
+      213: 3373650586503469793
+    second: Circle_Inside
+  - first:
+      213: 1459650748917854749
+    second: Doughnut_LWhite
+  - first:
+      213: -8255185203491381293
+    second: Doughnut_SWhite
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,31 +161,10 @@ TextureImporter:
       name: Doughnut_Blue
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6132
-        width: 3510
-        height: 3508
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c382bf5c10da63ed0800000000000000
-      internalID: -2434568325419030468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doughnut_Red
-      rect:
-        serializedVersion: 2
-        x: 3788
-        y: 6123
-        width: 3515
-        height: 3517
+        x: 3
+        y: 1563
+        width: 486
+        height: 486
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,13 +179,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doughnut_White
+      name: Doughnut_Red
       rect:
         serializedVersion: 2
-        x: 7581
-        y: 6129
-        width: 3512
-        height: 3511
+        x: 523
+        y: 1563
+        width: 486
+        height: 486
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +193,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfbd01c470f5b170800000000000000
-      internalID: 8193719481316261841
+      spriteID: b339ca98c71e8b9c0800000000000000
+      internalID: -3911128351369292997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doughnut_White
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1562
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a284c82a3da266e10800000000000000
+      internalID: 2190485357215893546
       vertices: []
       indices: 
       edges: []
@@ -195,9 +225,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2491
-        width: 3511
-        height: 3516
+        y: 1069
+        width: 486
+        height: 486
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b354156958a00d0800000000000000
-      internalID: -3455802883398354084
+      spriteID: 69404a26e58723fc0800000000000000
+      internalID: -3516616012245760874
       vertices: []
       indices: 
       edges: []
@@ -215,10 +245,10 @@ TextureImporter:
       name: Circle_Red
       rect:
         serializedVersion: 2
-        x: 3790
-        y: 2489
-        width: 3514
-        height: 3519
+        x: 524
+        y: 1067
+        width: 486
+        height: 486
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1129658f048cad8f0800000000000000
-      internalID: -514879026010615279
+      spriteID: bec80849967ba2590800000000000000
+      internalID: -7698138948945539861
       vertices: []
       indices: 
       edges: []
@@ -236,19 +266,82 @@ TextureImporter:
       name: Circle_White
       rect:
         serializedVersion: 2
-        x: 7580
-        y: 2488
-        width: 3513
-        height: 3516
+        x: 1041
+        y: 1066
+        width: 486
+        height: 486
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10df674d1cfd56950800000000000000
-      internalID: 6441800865609612545
+      spriteID: ac6a0852f5b5945b0800000000000000
+      internalID: -5383671415335508278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle_Inside
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 728
+        width: 298
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ead3d4855d91de20800000000000000
+      internalID: 3373650586503469793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doughnut_LWhite
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 545
+        width: 486
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b1616f98b14410800000000000000
+      internalID: 1459650748917854749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doughnut_SWhite
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 645
+        width: 288
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfd5d69bc0bf6d80800000000000000
+      internalID: -8255185203491381293
       vertices: []
       indices: 
       edges: []
